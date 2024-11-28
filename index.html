@@ -1,11 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment on Tables</title>
+    <!-- Some Style that helps align my body, table and img -->
+    <style>
+      body,
+      table img {
+        font-family: "Cambria";
+        margin: 10%;
+        font-size: 32px;
+      }
+      /* Some style for the Table Data */
+      td {
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <!-- Body Begins hear -->
+  <body>
+    <!-- The Assignment Image -->
+    <img src="html-table.jpg" alt="hmtl image" width="55%" />
+    <!-- Some Spacing -->
+    <br /><br />
+    <!-- The Table Logo🎃 -->
+    <img src="Logo.jpg" alt="html logo" width="50px" style="display: inline" />
+    <!-- Table Heading -->
+    <h3 style="display: inline;">Create Tables in HTML</h3>
+    <!-- Table Begins Here -->
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Column 1</th>
+          <th>Column 2</th>
+          <th>Column 3</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="2">Row 1 Cell 1</td>
+          <td>Row 1 Cell 2</td>
+          <td>Row 1 Cell 3</td>
+        </tr>
+        <tr>
+          <td>Row 2 Cell 2</td>
+          <td>Row 2 Cell 3</td>
+        </tr>
+        <tr>
+          <td colspan="3">Row 3 Cell 1</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
 </html>
